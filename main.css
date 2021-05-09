@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+.bg-image{
+    background: url("bg-image.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(20px);
+}
